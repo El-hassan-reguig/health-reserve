@@ -70,7 +70,7 @@ const Login = () => {
     
   </div>
   <button onClick={valider} className='btn btn-success'>Sing In</button>
-  <button  className='btn'><Link className='btn btn-primary' to={'/user'}>Sign Up</Link></button>
+  <button className='btn btn-primary' ><Link className='btn' to={'/user'}>Sign Up</Link></button>
 
   
   <ToastContainer/>
